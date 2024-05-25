@@ -1,0 +1,86 @@
+
+.formularios {
+  display: flex; /* Adiciona flexbox */
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  width: 100%; /* Aumente a largura conforme desejado */
+  margin: 0 auto 50px; /* Centraliza o bloco horizontalmente */
+}
+
+/* Estilo para o container do formulário */
+.form-container {
+  background-color: #00aaff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px; /* Aumente a largura conforme desejado */
+
+}
+
+/* Estilo para os rótulos (labels) */
+label {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Estilo para os campos de entrada (inputs e textarea) */
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  box-sizing: border-box; /* Evita que a largura seja afetada pelo padding e borda */
+}
+
+.form-container textarea {
+  width: 100%; /* A largura vai ocupar a totalidade da largura do container pai */
+  height: 150px; /* Ajuste este valor conforme necessário */
+  overflow-y: auto; /* Adiciona uma barra de rolagem se o conteúdo ultrapassar a altura máxima */
+  box-sizing: border-box; /* Evita que a largura seja afetada pelo padding e borda */
+  resize: none; /* Permite o redimensionamento apenas vertical */
+}
+
+/* Estilo específico para os campos de preenchimento (barrinhas) */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: calc(100% - 16px); /* Subtrai o espaço do padding e da borda */
+}
+
+/* Estilo para o botão de envio */
+button {
+  background-color: white;
+  color: #00aaff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Estilo para o botão de envio quando hover */
+button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilo para o texto adicional */
+.additional-text {
+  font-size: 18px;
+  border: solid 5px #00aaff;
+  border-radius: 20px;
+  background-color: white; /* Cor de fundo branca */
+  color: black; /* Cor de texto preta */
+  margin-right: 50px; /* Espaço à direita */
+  padding: 20px; /* Padding interno */
+  width: 800px; /* Largura do bloco de texto */
+  box-sizing: border-box; /* Evita que a largura seja afetada pelo padding e borda */
+}
+
+.additional-text img {
+  max-width: 100%; /* A imagem vai ocupar no máximo a largura do container pai */
+  height: auto; /* A altura é ajustada automaticamente para manter a proporção da imagem */
+  padding-top: 20px;
+}

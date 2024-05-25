@@ -1,0 +1,35 @@
+.projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%; /* ajuste este valor para o tamanho desejado */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .projeto-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    border: solid 5px #00aaff;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 50px;
+    
+  }
+  
+  
+  .image {
+    width: 20%;
+    height: 20%; /* mantém a proporção da imagem */
+    object-fit: cover; /* a imagem cobrirá toda a área da div */
+    border-radius: 20px;
+  }
+  
+  .description {
+    margin-left: 50px;
+    width: 45%;
+    text-align: justify;
+    font-size: 18px;
+  }  

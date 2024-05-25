@@ -1,0 +1,242 @@
+.ONGs {
+    text-align: center;
+    font-family: Arial, sans-serif
+  }
+  
+  .headerOngs {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ADD8E6; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .menuOngs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logoOngs h3 {
+    margin: 0;
+  }
+  
+  .navigationOngs ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigationOngs ul li {
+    margin: 0 15px;
+  }
+  
+  .navigationOngs ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .mainOngs {
+    margin-top: 60px; 
+  }
+  
+  .sectionPac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #d4f1f498;
+  }
+  
+  .sectionFlor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #fcf9f9;
+  }
+  
+  .sectionArouche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #d4f1f498;
+  }
+  
+  .section:nth-child(even) {
+    background-color: #fffafa;
+  }
+  
+  .section:nth-child(2) {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(7, 4, 4); 
+  }
+  
+  .contentOngs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff8f8d8; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ccc; 
+    border-radius: 15px;
+  }
+  
+  
+  
+  .textOngs {
+    flex: 1;
+    padding-top: 5px;
+    padding-left: 20px;
+    word-wrap: break-word;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .tituloOngs {
+    text-align: center;
+    margin-bottom: -0.20px;
+    background-color: #00A5EA; 
+    padding: 5px 10px; 
+  }
+  
+  .descriptionOngs {
+    margin-top: 10px;
+    text-align: justify;
+  }
+  
+  .descriptionOngs p {
+    margin-bottom: 0;
+    word-wrap: break-word; 
+  }
+  
+  
+  
+  .imageOngs img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8); 
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .imageOngs img:hover {
+    transform: scale(1.05); 
+  }
+  
+  .call-to-action {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4bed26;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .call-to-action:hover {
+    background-color: #29e251;
+  }
+  
+  .footer {
+    padding: 20px;
+    background-color: #ADD8E6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    padding-right: 10px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  
+  .instagram-icon {
+    padding-right: 700px;
+    width: 35px;
+    height: 35px;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .contentOngs {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px; 
+    }
+  
+    .imageOngs {
+      margin-bottom: 20px; 
+    }
+  
+    .textOngs {
+      text-align: center;
+      font-size: 16px; 
+      width: 100%; 
+    }
+  
+    .tituloOngs {
+      font-size: 20px; 
+    }
+  
+    .descriptionOngs p {
+      font-size: 14px;
+      padding: 10px; 
+      word-wrap: break-word; 
+    }
+  }
+  
+  
+  @keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
+  
+  
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    animation: pulsate 1.5s infinite;
+  }
+  
+  .whatsapp-float img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+  }

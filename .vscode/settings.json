@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "api\\bin\\Release\\net8.0\\publish",
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/1769d99a-2d77-47a9-9309-769ed799dcd8/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/conexoessolidarias"
+}
